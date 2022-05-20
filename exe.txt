@@ -1,0 +1,904 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="王台南手工冰淇淋店">
+    <meta name="author" content="">
+    <meta property="og:title" content="吃好、住好、睡好乳牛的冰淇淋">
+    <meta property="og:type" content="html">
+    <meta property="og:image" content="img2/img2/carousel3.jpg">
+    <meta property="og:url" content="http://nccumisdoc.nccu.edu.tw/forms-flow/">
+    <meta property="og:description" content="王台南手工冰淇淋店，以網路商店為主，口味不甜膩，讓人吃了百吃不膩喔" />
+    <meta property="og:site_name" content="王台南手工冰淇淋">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <title>王台南手工冰淇淋</title>
+    <!-- Bootstrap core CSS -->
+    <link href="allcss.css" rel="stylesheet">
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122468270-5');
+  </script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top text-info" id="mainNav">
+        <div class="container mx-auto">
+            <a class="navbar-brand js-scroll-trigger " href="#page-top"><img src="img/img2/img2/img2/logo-01.png" class="img-fluid" width="100%" height="100%"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item-divider">
+                        <span class="nav-link">
+                            <span></span>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger ms-5 mr-3 " href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger mx-3 " href="#feature">特色介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger mx-3 " href="#intro">店家介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger mx-3 " href="#shop">商品購買</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger mx-3 " href="#qa">訂閱我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger mx-3 " href="#contact">聯繫我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary mx-3" data-toggle="modal" data-target="#cart">購物車 <i class="fas fa-shopping-cart"></i> (<span class="total-count"></span>)</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start header -->
+    <!-- carousal -->
+    <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+            <button class="" type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button class="" type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <div class="jumbotron img-fluid"></div>
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="mb-5 bold special">王台南手工冰淇淋1</h1>
+                        <h2 class="mb-5">吃好、睡好、住好的乳牛冰淇淋</h2>
+                        <p class="mb-5 opacity-75">王台南手工冰淇淋店，以網路商店為主，口味不甜膩，讓人吃了百吃不膩喔</p>
+                        <p><a href="#" class="btn btn-lg btn-primary">購買商品</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="jumbotron img-fluid"></div>
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="mb-5 bold special">王台南手工冰淇淋2</h1>
+                        <h2 class="mb-5">吃好、睡好、住好的乳牛冰淇淋</h2>
+                        <p class="mb-5 opacity-75">王台南手工冰淇淋店，以網路商店為主，口味不甜膩，讓人吃了百吃不膩喔</p>
+                        <p><a href="#" class="btn btn-lg btn-primary">購買商品</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron img-fluid"></div>
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="mb-5 bold special">王台南手工冰淇淋3</h1>
+                        <h2 class="mb-5">吃好、睡好、住好的乳牛冰淇淋</h2>
+                        <p class="mb-5 opacity-75">王台南手工冰淇淋店，以網路商店為主，口味不甜膩，讓人吃了百吃不膩喔</p>
+                        <p><a href="#" class="btn btn-lg btn-primary">購買商品</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden></span>
+                <span class="visually-hidden">prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+        <!-- End header -->
+        <!-- Start About -->
+        <section class="bg-info" id="about">
+            <img class="parallax-1 rellax" src="img/parallax/001.png" alt="">
+            <!-- Content -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-lg-5 offset-lg-1 order-md-2">
+                        <!-- Image -->
+                        <div class="img-effect img-effect-solid mb-5 mb-md-0">
+                            <img src="img/img2/img2/img2/1.jpg" class="img-fluid" style="max-width: 50%;height:  auto;" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 offset-lg-1 order-md-1">
+                        <!-- Heading -->
+                        <h2 class="mb-5 fw-bold title js-fadeInUp">
+                            關於我們
+                        </h2>
+                        <!-- Content -->
+                        <ul class="text-muted list-iconed">
+                            <li class="list-iconed-item mb-4">
+                                王台南從事手工冰淇淋，堅持以牛奶、鮮奶油、天然食材製成冰淇淋
+                            </li>
+                            <li class="list-iconed-item mb-4">
+                                不添加任何化學物質，也不加入水，堅持原味，讓王台南守護您的權益
+                            </li>
+                            <li class="list-iconed-item mb-5">
+                                步驟費工費時，但可讓你吃到健康的手工冰淇淋，倍感幸福
+                            </li>
+                        </ul>
+                        <!-- Button -->
+                        <a href="#" class="btn btn-outline-primary">
+                            了解更多
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing item -->
+        <!--         <a class="btn btn-start btn-light btn-xl js-scroll-trigger sr-button shadow-sm" href="https://i.nccu.edu.tw/Login.aspx" target="_blank" id="no_ie">
+          前往iNCCU啟用<br>
+          <span id="no_ie_text"><i class="fas fa-exclamation-circle"></i> 不支援IE瀏覽器</span>
+        </a> -->
+        <!-- pricing item.. -->
+    </div>
+    </div>
+    </section>
+    <!-- End About -->
+    <!-- Start feature -->
+    <section class="feature border-bottom" id="feature">
+        <div class="bg-overlay2"></div>
+        <div class="bg-overlay"></div>
+        <img src="img/parallax/002.png" alt="" class="rellax parallax-2" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading title-sec fw-bold mb-5 js-fadeInUp">特色介紹</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-truck-moving text-info mb-3 sr-icon-1 " style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec">無紙化</h3>
+                        <p class="title-sec mb-0 opacity-75">去紙本作業，為地球盡一份心力。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-leaf text-info mb-3 sr-icon-1 " style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec">透明化</h3>
+                        <p class="title-sec mb-0 opacity-75">流程透明化、文件流程易於追蹤。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-clock text-info mb-3 sr-icon-1 " style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec">效率提升</h3>
+                        <p class="title-sec mb-0 opacity-75">提昇行政效能、降低公文傳遞的人力成本。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-utensils text-info mb-3 sr-icon-1 " style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec">全新介面</h3>
+                        <p class="title-sec mb-0 opacity-75">配合「新版電子公文校園標準版」的改版作業。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End feature -->
+    <!-- End intro -->
+    <section class="pt-7 pt-md-9" id="intro">
+        <img src="img/parallax/003.png" alt="" class="rellax parallax-3" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Divider -->
+                    <hr class="hr-sm bg-primary">
+                    <!-- Text -->
+                    <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+                        坐下來享受</br>最頂級的</br>冰淇淋味覺饗宴
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Media -->
+                    <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                        <!-- Border -->
+                        <div class="media-decoration-border" data-jarallax-element="-40" style="transform: translate3d(0px, 11.0183px, 0px);">
+                            <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <img class="media-decoration-img img-fluid" src="img/img2/image/45p/AIB013030.JPG" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-5 align-self-center mx-auto">
+                    <!-- Heading -->
+                    <h2 class="mb-2 fw-bold">
+                        <em>最佳的</em> 原料供應
+                    </h2>
+                    <!-- Text -->
+                    <p class="mb-0 opacity-75" style="line-height: 2rem;">
+                        王台南冰淇淋成立近30年，堅持不使用人工化學材料做冰淇淋，堅持使用有機原料。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End intro -->
+    <section class="py-7 py-md-9">
+        <img src="img/parallax/004.png" alt="" class="rellax parallax-4" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 order-md-2 align-self-end">
+                    <!-- Divider -->
+                    <hr class="hr-sm bg-primary">
+                    <!-- Text -->
+                    <p class="fs-lg lh-lg text-black mb-5 mb-md-0">
+                        Great variety of foods you will enjoy.
+                    </p>
+                </div>
+                <div class="col-md-4 order-md-3">
+                    <!-- Media -->
+                    <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                        <!-- Solid -->
+                        <div class="media-decoration-solid" data-jarallax-element="-40" style="transform: translate3d(0px, -2.92668px, 0px);">
+                            <div id="jarallax-container-2" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Border -->
+                        <div class="media-decoration-border" data-jarallax-element="-40" style="transform: translate3d(0px, 4.06448px, 0px);">
+                            <div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <img class="media-decoration-img img-fluid" src="img/img2/image/45p/AIB013029.JPG" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-5 order-md-1 align-self-center mx-auto">
+                    <!-- Heading -->
+                    <h2 class="mb-2">
+                        <em>Beautiful</em> outdoor seating
+                    </h2>
+                    <!-- Text -->
+                    <p class="mb-0 opacity-75" style="line-height: 2rem;">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae similique asperiores consequatur! Nihil temporibus qui enim. Accusamus voluptates a, et quidem! Quo, et?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start shop -->
+    <section class="py-7 py-md-9 border-bottom bg-info" id="shop">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                    <!-- Heading -->
+                    <h2 class="mb-4 fw-bolder title js-fadeInUp">
+                        商品購買
+                    </h2>
+                    <!-- Subheading -->
+                    <p class="mb-4 text-muted">
+                        材料很天然，以水果、牛奶製作，讓人吃了百吃不膩喔！</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <!-- Navigation -->
+                    <div class="nav justify-content-center mb-4" id="menuTabs" role="tablist">
+                        <a class="nav-link active" id="mainsTab" data-bs-toggle="tab" href="#mains" role="tab" aria-controls="mains" aria-selected="true" style="font-size: 17px;">
+                            冰淇淋
+                        </a>
+                        <a class="nav-link" id="lunchTab" data-bs-toggle="tab" href="#lunch" role="tab" aria-controls="lunch" style="font-size: 17px;">
+                            調味品
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Content -->
+                    <div class="tab-content" id="menuContent">
+                        <div class="tab-pane fade show active" id="mains" role="tabpanel" aria-labelledby="mainsTab">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/chocolate.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">苦甜巧克力</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted" style="line-height: 1.5rem;">
+                                                    用委內瑞拉72%的巧克力調製而成，</br>加入些許橙酒，</br>能夠吃到橙子味道，</br>讓冰淇淋加倍好吃。
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $15
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/vanila.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">經典香草</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted" style="line-height: 1.5rem;">
+                                                    香草莢熬煮讓冰淇淋帶有淡淡香草味，</br>每一份都帶有許多的香草籽，</br>讓天然的味道充滿每一份味蕾。
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $23
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/lanm.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">蘭姆葡萄</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted" style="line-height: 1.5rem;">
+                                                    葡萄乾泡入蘭姆，</br>讓每一顆葡萄乾都吸入飽滿的，</br>蘭姆酒後才下去製作，</br> 搭配鮮奶有蘭姆香喔。
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $16
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/apple.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">甜蜜蘋果</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted" style="line-height: 1.5rem;">
+                                                    採用新鮮的蘋果打成泥後，</br>加入鮮奶中熬煮，</br>再製成冰淇淋，</br>可以吃到蘋果的清香與顆粒 ！
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $15
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/straw.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">戀戀草莓</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted" style="line-height: 1.5rem;">
+                                                    上面鋪著我們自己做的酒香草莓丁，</br>滿滿的酒香草莓丁搭配著草莓冰淇淋，</br>一直熱賣的前三名。
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $23
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/mango.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">芒芒冰淇淋</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    大家最期待的芒果口味冰淇淋，</br>是唯一不加牛奶的口味，</br>提供給不能吃奶的客人。
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $16
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunchTab">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/chocolate.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">Lorem ipsum dolor sit amet</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $15
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/vanila.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">Fusce id ante ut arcu</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $23
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/lanm.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">Fusce sed dolor eget tortor</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $16
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/apple.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">Lorem ipsum dolor sit amet</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $15
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/straw.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">芒芒冰淇淋</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    大家最期待的芒果口味冰淇淋，</br>是唯一不加牛奶的口味，</br>提供給不能吃奶的客人。
+
+                                                </p>
+                                            </div>
+                                            <div class="col-2 text-muted">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $23
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover" src="img/img2/image/cart/mango.jpg" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title">Fusce sed dolor eget tortor</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 text-muted">
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, obcaecati! Sapiente laudantium.
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-white">
+                                                    $16
+                                                </div>
+                                                <a href="#" data-name="Banana" data-price="50" class="add-to-cart btn btn-outline-primary mt-3">購買</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    </section>
+    <section class="py-7 py-md-9 bg-light" id="qa">
+        <img src="img/parallax/005.png" alt="" class="rellax parallax-5" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                    <!-- Heading -->
+                    <h2 class="mb-4 fw-bold">
+                        訂閱我們
+                    </h2>
+                    <!-- Subheading -->
+                    <p class="mb-5" style="line-height: 2rem;">
+                        喜歡我們的冰淇淋，想要收到我們更多的優惠嗎？</br>
+                        那就寫下你的電子郵件，我們會寄給你DM！
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div id="mc_embed_signup">
+                        <form action="https://gmail.us6.list-manage.com/subscribe/post?u=c7b7808bb5a16b9f09c4e1fe0&amp;id=96b8442f9a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                            <div class="row justify-content-center gx-3" id="mc_embed_signup_scroll">
+                                <div class="col">
+                                    <label class="visually-hidden" for="mce-EMAIL">Email Address </label>
+                                    <input class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL">
+                                </div>
+                                <div class="visually-hidden" id="mce-responses">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                    <input type="text" name="b_c7b7808bb5a16b9f09c4e1fe0_96b8442f9a" tabindex="-1" value="">
+                                </div>
+                                <div class="col-auto">
+                                    <input class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about text-light" id="about" id="contact">
+        <div class="bg-overlay2"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading mb-4 fw-bold">聯繫我們 </h2>
+                    <p class="mb-5">如果您還有其他問題，歡迎洽詢王台南冰淇淋</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 ml-auto text-center">
+                    <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+                    <p id="copy">分機：67599</p>
+                    <button type="button" onclick="copyEvent('copy')" class="btn btn-primary"><i class="far fa-copy" style="color: #fff;"></i></button>
+                    <script>
+                        function copyEvent(id)
+                {
+                    var str = document.getElementById(id);
+                    window.getSelection().selectAllChildren(str);
+                    document.execCommand("Copy")
+                }
+                    </script>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+                    <p id="copy2">cc@nccu.edu.tw</p>
+                    <button type="button" onclick="copyEvent('copy2')" class="btn btn-primary"><i class="far fa-copy" style="color: #fff;"></i></button>
+                    <script>
+                        function copymama(id)
+                {
+                    var str = document.getElementById(id);
+                    window.getSelection().selectAllChildren(str);
+                    document.execCommand("Copy2")
+                }
+                    </script>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <!-- modal(不支援IE提示) -->
+        <div class="modal modal-no-ie fade" id="modal-no-ie" tabindex="-1" role="dialog" aria-labelledby="modal-no-ieLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modal-no-ieLabel">您目前使用的瀏覽器不支援</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">簽核流程系統不支援IE瀏覽器，請選擇以下瀏覽器：</p>
+                        <div class="row">
+                            <div class="col-sm-6 text-center text-sm-right mb-3">
+                                <a class="btn btn-lg btn-warning" href="https://www.google.com/intl/zh-TW_ALL/chrome/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="前往安裝"><i class="fab fa-chrome"></i> Chrome</a>
+                            </div>
+                            <div class="col-sm-6 text-center text-sm-left">
+                                <a class="btn btn-lg btn-primary" href="https://www.mozilla.org/zh-TW/firefox/new/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="前往安裝"><i class="fab fa-firefox"></i> Firefox</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 購物車彈跳視窗 -->
+            <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">購物車</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="show-cart table">
+                            </table>
+                            <div>總價: $<span class="total-cart"></span></div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                            <button type="button" class="btn btn-primary">結帳</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- modal(彈出廣告) -->
+        <!--  <div class="modal modal-popup fade" id="modal-popup" tabindex="-1" role="dialog" aria-labelledby="modal-no-ieLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0 h-100">
+                    <div class="modal-popup-close">
+                        <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div> -->
+        <!-- 每次更換彈出廣告要改圖片位置 -->
+        <!-- <img src="img/popup/popup_cover_190426.jpg" class="w-100">
+<div class="text-center my-4">
+    <button class="btn btn-lg btn-info" data-dismiss="modal" id="modal-popup-more">了解更多</button>
+</div>
+<div class="text-center custom-control custom-checkbox my-1">
+    每次更換彈出廣告要改name
+    <input type="checkbox" class="custom-control-input" id="modal-popup-check" name="modal-popup-check-190426">
+    <label class="custom-control-label font-weight-bold" for="modal-popup-check">下次不再顯示</label>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+        <!-- 回頂端 -->
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+        <div class="scroll-top">
+            <a class="btn btn-primary" href="#page-top">
+                <i class="fa fa-arrow-up"></i>
+            </a>
+        </div>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+        <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <!-- jquery cookie -->
+        <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+        <!-- cart -->
+        <script src="js/cart.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/creative.min.js"></script>
+        <!-- go top js -->
+        <script src="js/gotop.js"></script>
+        <!-- fancy box js -->
+        <script src="js/jquery.fancybox.min.js"></script>
+        <!-- woww.js -->
+        <script src="js/wow.js"></script>
+        <!-- custom js -->
+        <script src="js/index.js?v=19031401"></script>
+        <script src="js/popper.min.js"></script>
+        <!-- rellax.min.js -->
+        <script src="vendor/rellax/rellax.min.js"></script>
+        <!-- scrollreveal -->
+        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+</body>
+<!-- custom -->
+<script>
+    // rellax
+    var rellax = new Rellax('.rellax', {
+        // speed: -2,
+        center: true,
+        // wrapper: null,
+        // round: true,
+        // vertical: true,
+        // horizontal: false
+    });
+
+    // scrollreveal
+    ScrollReveal().reveal('.js-fadeInUp',{
+        origin: 'bottom',
+        distance: '50px',
+        delay: 200,
+        duration: 800,
+        reset: true
+    });
+    ScrollReveal().reveal('.js-fadeInLeft',{
+        origin: 'left',
+        distance: '50px',
+        delay: 200,
+        duration: 800
+        // reset: true
+    });
+    ScrollReveal().reveal('.js-fadeInRight',{
+        origin: 'right',
+        distance: '50px',
+        delay: 200,
+        duration: 800
+        // reset: true
+    });
+    ScrollReveal().reveal('.service-item',{
+        origin: 'bottom',
+        distance: '50px',
+        duration: 500,
+        interval: 300
+    });
+</script>
+
+</html>
